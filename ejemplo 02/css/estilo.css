@@ -1,0 +1,121 @@
+.bg-transparent{
+    background: #345333;
+}
+
+.carousel-caption{
+    bottom: 10% !important;
+    
+}
+
+.header{
+    background-color: #e11f30;
+}
+
+.boton-banner{
+    border-radius: 40px;
+    padding: 20px;
+    float: right;
+
+}
+
+.display-3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #eaeaea;
+}
+
+.btn-warning{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-warning:hover{
+    background-color: #7773D4;
+    border-color: #7773D4;
+}
+
+a.boton-banner.btn.btn-warning:hover{
+    color: #fff;
+}
+
+.portafolio{
+    background: #FCD672;
+}
+
+.biografia{
+    background-image: url(../img/bio-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.biografia .container .row{
+    height: 38rem;
+}
+
+@media (min-width: 768px) { 
+    .biografia .container .row{
+        height: 25rem;
+    }
+    }
+
+.borde-destacado::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background:#fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link-cv{
+    background: #7773D4;
+    border-color: #7773D4;
+}
+
+.btn-secondary{
+    background: #D40054;
+
+}
+
+.btn-secondary:hover{
+    background: #7773D4;
+
+}
+
+.container-fluid.pt-3.pb-3.text-center.btn.btn-secondary.expand a{
+    color: #fff;
+}
+
+.bg-warning{
+    background: #FCD672 !important;
+    
+}
+
+.footer{
+    background: #D40054;
+}
+
+.proyecto-contacto{
+    background-image: url(../img/contact-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.texto-cont ul li a{
+    color: #fff;
+}
+
+.proyecto-contacto .container .row{
+    height: 25rem;
+}
